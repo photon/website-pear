@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Photon Distribution Channel</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="alternate" type="application/rss+xml" href="http://dist.photon-project.com/feed.xml" title="Photon Distribution Channel Latest Releases" />
+</head>
+<body>
+  <div id="doc" class="yui-t7">
+    <div id="wrapper">
+      <div id="hd"><h1>Photon Distribution Channel</h1></div>
+      <div id="bd">
+      <div class="yui-g">
+
+                <h2>Packages</h2>
+                                 <h3>photon<small> - Photon, The High Performance PHP Framework.</small></h3>
+                    <p>Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.</p>
+                    <ul>
+                        <li><strong>Package name</strong>: photon</li>
+                        <li><strong>License</strong>: LGPL</li>
+                                                <li><strong>Maintainers</strong>: Loïc d'Anterroches (as lead)</li>
+                                                <li><strong>Releases</strong>: <a href="http://dist.photon-project.com/get/photon-0.2.0.tgz">0.2.0</a> (beta), <a href="http://dist.photon-project.com/get/photon-0.1.tgz">0.1</a> (beta), <a href="http://dist.photon-project.com/get/photon-0.0.9.tgz">0.0.9</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.8.tgz">0.0.8</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.7.tgz">0.0.7</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.6.tgz">0.0.6</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.5.tgz">0.0.5</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.4.tgz">0.0.4</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.3.tgz">0.0.3</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.2.tgz">0.0.2</a> (alpha), <a href="http://dist.photon-project.com/get/photon-0.0.1.tgz">0.0.1</a> (alpha)</li>
+<!--                        <li><strong>Install command</strong>: pear install photon/photon</li> -->
+                                                         <li><strong>Code coverage</strong>: <a href="./tests/photon-0.2.0/index.html">0.2.0</a>, <a href="./tests/photon-0.1/index.html">0.1</a>, <a href="./tests/photon-0.0.9/index.html">0.0.9</a>, <a href="./tests/photon-0.0.8/index.html">0.0.8</a>, <a href="./tests/photon-0.0.7/index.html">0.0.7</a>, <a href="./tests/photon-0.0.6/index.html">0.0.6</a></li>
+                            </ul>
+                             
+                
+           <h2>Channel Usage</h2>
+                <p>This channel is to be used with the PEAR installer.</p>
+<p>
+                <em>Register</em> the channel:
+                <pre><code>pear channel-discover dist.photon-project.com</code></pre>
+                <em>Define</em> your global stability level:
+                <pre><code>pear config-set preferred_state alpha
+pear config-set preferred_state stable</code></pre>
+
+                <em>List</em> available packages:
+                <pre><code>pear remote-list -c photon</code></pre>
+                <em>Install</em> a package:
+                <pre><code>pear install photon/package_name</code></pre>
+                <em>Install</em> a specific version/stability:
+                <pre><code>pear install photon/package_name-1.0.0
+pear install photon/package_name-beta</code></pre>
+                <em>Receive</em> updates via the <a href="feed.xml">feed</a>:
+                <pre><code>http://dist.photon-project.com/feed.xml</code></pre>
+</p>
+
+            </div>
+        </div>
+</div>
+        <div id="ft">
+            <p>The <em>Photon Distribution Channel</em> server is proudly powered by <a href="http://www.mongrel2.org/">Mongrel2</a> and hosted by <a href="http://www.ceondo.com/">Céondo Ltd</a>.</p>
+        </div>
+    </div>
+</body>
+</html>

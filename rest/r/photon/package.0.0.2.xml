@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>photon</name>
+ <channel>dist.photon-project.com</channel>
+ <summary>Photon, The High Performance PHP Framework.</summary>
+ <description>Photon is a high performance PHP framework specifically developed to serve as a Mongrel2 backend. It is usually 2 to 3 times faster than the best mod_php frameworks.</description>
+ <lead>
+  <name>Loïc d&apos;Anterroches</name>
+  <user>loic</user>
+  <email>loic@ceondo.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-24</date>
+ <time>14:08:35</time>
+ <version>
+  <release>0.0.2</release>
+  <api>0.0.2</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+ <notes>
+First release.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="e078809b5acabebf8ca794d8614587e6" name="hnu" role="script" />
+   <file baseinstalldir="/" md5sum="726c5e967f0e6aad6ca47d2ae9eecb95" name="LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="42955a9fdc2416715cb0734376d2b80d" name="README" role="doc" />
+   <file baseinstalldir="/" md5sum="5750250f8927fd741ceaa515ada79c6a" name="photon.php" role="php">
+    <tasks:replace from="@version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="85cb0551eaf6317d4f66176e4a278544" name="photon/autoload.php" role="php" />
+   <file baseinstalldir="/" md5sum="f948c514847078226d89da530d8336bb" name="photon/config.php" role="php" />
+   <file baseinstalldir="/" md5sum="738afd95116cc836cf2010df75405ba9" name="photon/core.php" role="php" />
+   <file baseinstalldir="/" md5sum="c02cf886b2fd85d1ebeea5fdbedab8fa" name="photon/crypto.php" role="php" />
+   <file baseinstalldir="/" md5sum="7103ba5d16d08ebf0dcfa9c39ebc8aeb" name="photon/daemon.php" role="php" />
+   <file baseinstalldir="/" md5sum="fd9f49d5cd288bba695b3723964487e7" name="photon/date.php" role="php" />
+   <file baseinstalldir="/" md5sum="ed8c1f4173d6ebc7e852b7d24dfdd974" name="photon/db.php" role="php" />
+   <file baseinstalldir="/" md5sum="e92c471a9be72cb8121c49853bdb3d03" name="photon/http.php" role="php" />
+   <file baseinstalldir="/" md5sum="ec57f872a6d4a83de46b1e6b8fbd0480" name="photon/log.php" role="php" />
+   <file baseinstalldir="/" md5sum="4e6ed2be961318e31e07edc388889228" name="photon/manager.php" role="php" />
+   <file baseinstalldir="/" md5sum="d9228d1cdb0cef4529cd1a072eae91f6" name="photon/mongrel2.php" role="php" />
+   <file baseinstalldir="/" md5sum="efe7e20eaacdfbfc11317127a476315e" name="photon/processor.php" role="php" />
+   <file baseinstalldir="/" md5sum="ccb1460fd3a16efa15d91bee7829e2ed" name="photon/server.php" role="php" />
+   <file baseinstalldir="/" md5sum="08d8cac0415824297e1e3d9b321e0f76" name="photon/session.php" role="php" />
+   <file baseinstalldir="/" md5sum="d1d68930a59ee5b161bd92e2e8f6d8b2" name="photon/shortcuts.php" role="php" />
+   <file baseinstalldir="/" md5sum="e723d2334a142813cb3e2cb37e4a6e82" name="photon/task.php" role="php" />
+   <file baseinstalldir="/" md5sum="9ca0c7f1f2ea793a7089cabfa6e96db7" name="photon/template.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0e4a05e10075a078d777fb009b0d5a7" name="photon/test.php" role="php" />
+   <file baseinstalldir="/" md5sum="eabd615a4689045fc8e1a7700487bbff" name="photon/testbootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="594a3a1a497e24deddd6b6d897524016" name="photon/translation.php" role="php" />
+   <file baseinstalldir="/" md5sum="13150dfe95ad13fecb1f182a7b3ebc56" name="photon/views.php" role="php" />
+   <file baseinstalldir="/" md5sum="3efcdc49ccad8fd4541b92ad633b9894" name="photon/data/app_template/urls.php" role="php" />
+   <file baseinstalldir="/" md5sum="2de39388f7d750b4e7329ffd7b7908fe" name="photon/data/app_template/views.php" role="php" />
+   <file baseinstalldir="/" md5sum="f18a747622ace6122b5cbb03c0bb285d" name="photon/data/project_template/config.php" role="php" />
+   <file baseinstalldir="/" md5sum="360f075aba881a959cbf13127e0cabe0" name="photon/data/project_template/config.test.php" role="php" />
+   <file baseinstalldir="/" md5sum="9e7512fd5399358f56c5a1520e251a8f" name="photon/data/project_template/urls.php" role="php" />
+   <file baseinstalldir="/" md5sum="861ca01e9ad400e9d883fb6dbc79972c" name="photon/db/mongo.php" role="php" />
+   <file baseinstalldir="/" md5sum="b0d71818ce0e970a6d5c3c838ef8fffe" name="photon/db/mongodb.php" role="php" />
+   <file baseinstalldir="/" md5sum="e01cb10391f98af1569cd7091691b953" name="photon/http/error.php" role="php" />
+   <file baseinstalldir="/" md5sum="db15eb203450bd1b0fbd0219fccfb945" name="photon/http/multipartparser.php" role="php" />
+   <file baseinstalldir="/" md5sum="78a31f2b51d22710ea2b8b364eea9804" name="photon/http/response.php" role="php" />
+   <file baseinstalldir="/" md5sum="d5bb3f22925ac767168812df16712bbc" name="photon/locale/fr/photon.po" role="php" />
+   <file baseinstalldir="/" md5sum="d2c2f1c0e70b855f1dddd07964c84c4e" name="photon/template/compiler.php" role="php" />
+   <file baseinstalldir="/" md5sum="e8074703f49526f59823bef0768b9658" name="photon/template/tag.php" role="php" />
+   <file baseinstalldir="/" md5sum="526ebfae34e92ab5081348b004eadf14" name="photon/tests/data/example.payload" role="php" />
+   <file baseinstalldir="/" md5sum="d5bb3f22925ac767168812df16712bbc" name="photon/tests/data/fr.po" role="php" />
+   <file baseinstalldir="/" md5sum="827335b99ac2dae348f78d1c557f2dac" name="photon/tests/data/multi_video.upload" role="php" />
+   <file baseinstalldir="/" md5sum="faf6560b0ff5a12d45f9c404dfc117ce" name="photon/tests/data/multi_video.upload.corrupted" role="php" />
+   <file baseinstalldir="/" md5sum="e51915ea83df3ae7846885e1881008cc" name="photon/tests/data/small.upload" role="php" />
+   <file baseinstalldir="/" md5sum="d5bb3f22925ac767168812df16712bbc" name="photon/tests/data/dummyapp/locale/fr/dummyapp.po" role="php" />
+   <file baseinstalldir="/" md5sum="7783131bde69abf78cdc99243136ab88" name="photon/tests/http/500.html" role="php" />
+   <file baseinstalldir="/" md5sum="e062c3ae2a93f851ac8fb37fba8a7184" name="photon/tests/http/baseTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="14096643ae12bace698e27694fe56834" name="photon/tests/http/cookiesTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8c375823e1f5f02c790a8423560c8008" name="photon/tests/http/multipartparserTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="5dbe06df37275be1c84d84374839c716" name="photon/tests/mongrel2/mongrel2Test.php" role="php" />
+   <file baseinstalldir="/" md5sum="f5bc1bd32a42f50bdbf4d57122531364" name="photon/tests/small/configTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e47de4415ea1bb5e9eac6cc6e7b32547" name="photon/tests/small/coredispatchTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="408f5c32a0abc9c052b2197daae1cd18" name="photon/tests/small/coreurlTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="70d8fef358c570a17f8ec87de129fa5e" name="photon/tests/small/cryptoTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c914b4989979925cf7a7cea7516575c1" name="photon/tests/small/README" role="php" />
+   <file baseinstalldir="/" md5sum="aefc20b36a9f1e656da9093d2430430b" name="photon/tests/template/data-template-blockwithmod.html" role="php" />
+   <file baseinstalldir="/" md5sum="a11d44d002c9e995b3468c4e5301e559" name="photon/tests/template/data-template-exampletag.html" role="php" />
+   <file baseinstalldir="/" md5sum="021ae59467c5d997f5301ce32dd158a7" name="photon/tests/template/data-template-extend-simpleblock.html" role="php" />
+   <file baseinstalldir="/" md5sum="1de746207f1537fb23d44b826aec4be3" name="photon/tests/template/data-template-failuretag.html" role="php" />
+   <file baseinstalldir="/" md5sum="e1802109fb593f598acbf29d08e65b6a" name="photon/tests/template/data-template-foreach.html" role="php" />
+   <file baseinstalldir="/" md5sum="a8ffcde424b1e11977ee165efcceaf6c" name="photon/tests/template/data-template-ifelse.html" role="php" />
+   <file baseinstalldir="/" md5sum="39cb9e4259aad92f43aa2818acc28342" name="photon/tests/template/data-template-modifier.html" role="php" />
+   <file baseinstalldir="/" md5sum="f4ca1ccea40eedb01563be0637dc3c02" name="photon/tests/template/data-template-simpleblock.html" role="php" />
+   <file baseinstalldir="/" md5sum="8ddd8be4b179a529afa5f2ffae4b9858" name="photon/tests/template/data-template-simplest.html" role="php" />
+   <file baseinstalldir="/" md5sum="d178468d455ea49b495bb0b5c3acbd03" name="photon/tests/template/data-template-simplevars.html" role="php" />
+   <file baseinstalldir="/" md5sum="98f7701ad695fffc58bf67a844be6602" name="photon/tests/template/data-template-superblock.html" role="php" />
+   <file baseinstalldir="/" md5sum="b39cce53d5914aacee83a1a1462ab525" name="photon/tests/template/data-template-tag-url.html" role="php" />
+   <file baseinstalldir="/" md5sum="195cdf5e027afdb4a1f40071cada9c80" name="photon/tests/template/data-template-while.html" role="php" />
+   <file baseinstalldir="/" md5sum="58763d81465c1e67db5c4769c4c5150d" name="photon/tests/template/modifierTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="f31319dd47a5fdd4f63343e6af639e3d" name="photon/tests/template/rendererTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a9e821c2eb90a772ca8d746e08d9687e" name="photon/tests/template/templateTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e531f16159a4c653771ffe3c68bd9d24" name="photon/tests/translations/translateTest.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>3.5.5</min>
+   </package>
+   <package>
+    <name>pecl_http</name>
+    <channel>pecl.php.net</channel>
+    <min>1.7.0</min>
+    <providesextension>http</providesextension>
+   </package>
+   <package>
+    <name>zmq</name>
+    <channel>pear.zero.mq</channel>
+    <min>0.7.0</min>
+    <providesextension>zmq</providesextension>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-17</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+   <notes>
+First release.
+   </notes>
+  </release>
+ </changelog>
+</package>

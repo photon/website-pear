@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://dist.photon-project.com">
+    <title>Photon Distribution Channel Latest Releases</title>
+    <link href="http://dist.photon-project.com" />
+    <author>
+        <name>http://dist.photon-project.com</name>
+    </author>
+
+    <entry>
+        <title>photon 0.2.0 (beta)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.2.0.tgz" />
+        <id>photon-0.2.0</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-04-11T13:10:23+02:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.1 (beta)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.1.tgz" />
+        <id>photon-0.1</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-03-11T17:24:30+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.9 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.9.tgz" />
+        <id>photon-0.0.9</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-03-05T22:42:42+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.8 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.8.tgz" />
+        <id>photon-0.0.8</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-03-05T14:13:49+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.7 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.7.tgz" />
+        <id>photon-0.0.7</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-03-04T13:56:32+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.6 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.6.tgz" />
+        <id>photon-0.0.6</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-03-03T11:24:40+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.5 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.5.tgz" />
+        <id>photon-0.0.5</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-02-26T16:30:13+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.4 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.4.tgz" />
+        <id>photon-0.0.4</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-02-25T13:42:59+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.3 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.3.tgz" />
+        <id>photon-0.0.3</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-02-25T11:12:03+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.2 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.2.tgz" />
+        <id>photon-0.0.2</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-02-24T14:08:35+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>    <entry>
+        <title>photon 0.0.1 (alpha)</title>
+        <link href="http://dist.photon-project.com/get/photon-0.0.1.tgz" />
+        <id>photon-0.0.1</id>
+        <author>
+            <name>loic</name>
+        </author>
+        <updated>2011-02-24T13:18:12+01:00</updated>
+        <content>
+            Photon is a high performance PHP framework to create ZeroMQ based Mongrel2 handlers. It is usually 2 to 3 times faster than the best mod_php frameworks.
+        </content>
+    </entry>
+</feed>
