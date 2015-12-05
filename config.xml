@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<server>
-  <name>dist.photon-project.com</name>
-  <summary>Photon Distribution Channel</summary>
-  <alias>photon</alias>
-  <url>http://dist.photon-project.com</url>
-</server>
